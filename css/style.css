@@ -1,0 +1,240 @@
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+   
+}
+
+ul li a {
+    margin-right: 20px;
+    font-size: 128PX;
+}
+
+h2 {
+    color: black;
+    font-size: 40px;
+
+}
+
+h6 {
+    font-size: 12px;
+    display: inline-block;
+    margin-top: 5rem;
+    color: #707070;
+    padding-left: 5px;
+}
+
+
+.navi {
+    padding-top: 50px;
+ 
+}
+
+.navbar .nav-link .active {
+    color: #00ADB5;
+}
+
+.brand {
+    font-size: 60px;
+    font-weight: bold;
+
+}
+
+.hero {
+    min-height: 100vh;
+    height: 100%;
+    margin-top: 80px;
+}
+
+.hero-message {
+    padding-top: 150px;
+    padding-left: 200px;
+    
+}
+
+.hero-image {
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 650px;
+    height: 450px;
+}
+
+h3 {
+    color: #00ADB5;
+    font-size: 20px;
+}
+
+.hero h1 {
+    font-size: 100px;
+    /* padding-top: 20px; */
+
+}
+
+.btn-download{
+    color: white;
+    background-color: #00adb5;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 15px;
+    margin-right: 20px;
+}
+.btn-download:hover
+{
+    border-radius:50px;
+    background-color: #00ADB5;
+    color:white;
+}
+.btn-hireMe
+{
+    border: none;
+    text-transform: capitalize;
+}
+.icon-arrow{
+     color: #00ADB5;
+    font-size: 20px;
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* services */
+.services {
+    min-height: 100vh;
+    height: 100%;
+    background-color: #eeeeee;
+    text-align: center;
+
+}
+
+.services-card {
+    background-color: white;
+    border-radius: 30px;
+    height: 300px;
+    width: 350px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: 6px -6px 0 0 #707070;
+    text-align: justify;
+
+}
+
+.services-card:hover {
+
+    box-shadow: 1px -1 0 0 #707070;
+}
+
+/* END OF SERVICES STYLE */
+
+
+
+
+
+
+
+
+/* ABOUT STYLE */
+
+.about {
+
+    min-height: 100vh;
+    height: 100%;
+    text-align: center;
+}
+
+.about-image {
+    width: 650px;
+    height: 474px;
+    padding-left: px;
+}
+
+.about-message h1 {
+    padding-top: 5rem;
+    text-align: justify;
+    padding-left: 5rem;
+ 
+}
+.about-message p 
+{
+   padding-top: 2rem;
+   text-align: justify;
+   padding-left: 5rem;
+}
+
+
+.about-cont
+{
+    margin-top: 10rem;
+}
+.abave-navigation
+{
+    padding-top: 15rem;
+}
+
+
+
+
+
+
+
+
+/* END OF ABOUT STYLE */
+
+
+
+
+
+
+
+
+
+
+
+/* skills section */
+.skills {
+    background-color: #eeeeee;
+    min-height: 100vh;
+    height: 100%;
+    text-align: center;
+}
+
+.contact {
+
+    min-height: 100vh;
+    height: 100%;
+    text-align: center;
+}
+.foot{
+    height: 100px;
+    background-color: #00ADB5;
+}
+
+.bar
+{
+    width: 50%;
+    height: 10px;
+    background-color: black;
+
+}
