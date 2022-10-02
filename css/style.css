@@ -3,18 +3,47 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
    
+}
+#home
+{
+    min-height: 100vh;
+    height: 100%;
+    text-align: center;
+
 }
 
 ul li a {
     margin-right: 20px;
     font-size: 128PX;
+   
+}
+.nav-link:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #00ADB5;
+    text-decoration-thickness: 2px;
+    color: black;
+    transition: 0.5s ease;
+
+}
+
+a {
+    text-decoration: none;
+    color: #707070;
+    font-size: large;
+}
+a:hover
+{
+    color: #00ADB5;
 }
 
 h2 {
     color: black;
     font-size: 40px;
+    font-weight: bolder;
+    
 
 }
 
@@ -22,7 +51,7 @@ h6 {
     font-size: 12px;
     display: inline-block;
     margin-top: 5rem;
-    color: #707070;
+    color: #00ADB5;
     padding-left: 5px;
 }
 
@@ -32,12 +61,13 @@ h6 {
  
 }
 
-.navbar .nav-link .active {
+.active {
     color: #00ADB5;
+    font-weight: 500;
 }
 
 .brand {
-    font-size: 60px;
+    font-size: 40px;
     font-weight: bold;
 
 }
@@ -65,11 +95,14 @@ h6 {
 h3 {
     color: #00ADB5;
     font-size: 20px;
+    font-weight: bolder;
 }
 
 .hero h1 {
-    font-size: 100px;
-    /* padding-top: 20px; */
+    font-size: 80px;
+    font-weight: bolder;
+    margin-bottom: 3rem;
+
 
 }
 
@@ -81,22 +114,13 @@ h3 {
     border-radius: 5px;
     padding: 15px;
     margin-right: 20px;
+    font-size: 1rem;
 }
 .btn-download:hover
 {
     border-radius:50px;
     background-color: #00ADB5;
     color:white;
-}
-.btn-hireMe
-{
-    border: none;
-    text-transform: capitalize;
-}
-.icon-arrow{
-     color: #00ADB5;
-    font-size: 20px;
-     
 }
 
 
@@ -145,7 +169,15 @@ h3 {
 
     box-shadow: 1px -1 0 0 #707070;
 }
-
+.services-para
+{
+    padding-top: 1rem;
+}
+.services-h3
+{
+    padding-top: 4.5rem;
+    text-align: center;
+}
 /* END OF SERVICES STYLE */
 
 
@@ -176,11 +208,13 @@ h3 {
     padding-left: 5rem;
  
 }
-.about-message p 
+.about-para
 {
    padding-top: 2rem;
    text-align: justify;
    padding-left: 5rem;
+   font-size: 1rem;
+   line-height: 2rem;
 }
 
 
@@ -193,12 +227,11 @@ h3 {
     padding-top: 15rem;
 }
 
-
-
-
-
-
-
+.about-h1
+{
+ font-size: 30px;
+ font-weight: bold;
+}
 
 /* END OF ABOUT STYLE */
 
@@ -217,8 +250,232 @@ h3 {
     background-color: #eeeeee;
     min-height: 100vh;
     height: 100%;
-    text-align: center;
+    padding-bottom: 58px;
+    padding: 0 13%;
 }
+.control-skill
+{
+    text-align: center;
+    margin-bottom: 9rem;
+}
+
+.skill-main
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 20px;
+}
+.skill-main .skill-bar .infor .percentage
+{
+    font-weight: bold;
+}
+.skill-main .skill-bar .infor
+{
+     
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.skill-bar .bar{
+    width: 100%;
+    height: 10px;
+    position: relative;
+    background-color: rgba(211, 206, 206, 0.61);
+    border-radius: 25px;
+    margin-top: 5px;
+}
+
+.skill-bar .bar span
+{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color: #0ea5ad;
+    border-radius: 25px;
+}
+.skill-bar .bar .html
+{
+    width: 95%;
+    animation: html 3s;
+}
+
+@keyframes html
+{
+    0%
+    {
+        width: 0;
+    }
+    100%
+    {
+        width: 95%;
+    }
+}
+
+.skill-bar .bar .css
+{
+    width: 92%;
+    animation: css 3s;
+}
+
+@keyframes css
+{
+    0%
+    {
+        width: 0;
+    }
+    100%
+    {
+        width: 92%;
+    }
+}
+
+
+.skill-bar .bar .javascript
+{
+    width: 90%;
+    animation: javascript 3s;
+}
+
+@keyframes javascript
+{
+    0%
+    {
+        width: 0;
+    }
+    100%
+    {
+        width: 90%;
+    }
+}
+
+
+.skill-bar .bar .nodejs
+{
+    width: 75%;
+    animation: nodejs 3s;
+}
+
+@keyframes nodejs
+{
+    0%
+    {
+        width: 0;
+    }
+    100%
+    {
+        width: 75%;
+    }
+}
+
+
+.skill-bar .bar .reactjs
+{
+    width: 89%;
+    animation: reactjs 3s;
+}
+
+@keyframes reactjs
+{
+    0%
+    {
+        width: 0;
+    }
+    100%
+    {
+        width: 89%;
+    }
+}
+
+
+.skill-bar .bar .mangodb
+{
+    width: 82%;
+    animation: mangodb 3s;
+}
+
+@keyframes mangodb
+{
+    0%
+    {
+        width: 0;
+    }
+    100%
+    {
+        width: 82%;
+    }
+}
+
+
+.skill-bar .bar .figma
+{
+    width: 90%;
+    animation: figma 3s;
+}
+
+@keyframes figma
+{
+    0%
+    {
+        width: 0;
+    }
+    100%
+    {
+        width: 90%;
+    }
+}
+
+
+.skill-bar .bar .adobexd
+{
+    width: 95%;
+    animation: adobexd 3s;
+}
+
+@keyframes adobexd
+{
+    0%
+    {
+        width: 0;
+    }
+    100%
+    {
+        width: 95%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* contact style */
+
+
 
 .contact {
 
@@ -226,15 +483,18 @@ h3 {
     height: 100%;
     text-align: center;
 }
+.contact-btn
+{
+    margin-top: 60px;
+    margin-left: 27rem;
+}
+
+
+
+
+
+/* footer style */
 .foot{
     height: 100px;
     background-color: #00ADB5;
-}
-
-.bar
-{
-    width: 50%;
-    height: 10px;
-    background-color: black;
-
 }
