@@ -16,7 +16,8 @@
     <link rel="stylesheet" href="css/style.css" />
 
        <!-- font-awasome -->
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css">
+       
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar">
@@ -70,7 +71,7 @@
                             Damasco
                         </h1>
                         <button type="button" class="btn btn-lg btn-download">DOWNLOAD CV</button>
-                        <button type="button" class="btn btn-lg btn-download">HIRE ME 👉</button>
+                        <button type="button" class="btn btn-lg btn-download">HIRE ME 👉 <i class="fa-thin fa-arrow-right" style="color:black ;"></i></button>
                     
                     </div>
 
@@ -178,7 +179,13 @@
                     <h1 class="about-h1">A UI/UX Designer & Web <br> Developer based in Tanzania </h1>
                     <p class="about-para">Deals with user experience design and user interface design 
                         as well as developing different web application for small entrepreneur 
-                       to  large business and different companies.</p>
+                        to  large business and different companies.</p>
+                        <div class="cont-info">
+                        <p class="cont-para">Name: <span>Efron Damasco</span> </p>
+                        <p class="cont-para">Address: <span> Dodoma Tanzania</span></p>
+                        <p class="cont-para">Email: <span>Efrondamasco@gmail.com</span> </p>
+                        <p class="cont-para">Phone: <span>+255716-695-346</span> </p>
+                    </div>
                        <button type="button" class="btn btn-lg btn-download contact-btn">CONTACT ME 📞</button>  
                 </div>
            </div>   
@@ -292,10 +299,26 @@
                 <h6> <a href="#contact">CONTACT</a> <span></span></h6>
                 <h2>CONTACT <span class="spani" > ME </span> ☎</h2>
             </div>
-                   
-        </div>
-        <div class="container contact-cont">
+            <div class="container contact-cont">
+              
+                <div class="row">
+                    
+                    <div class="col-lg-6 col-sm-12 cont-form">
+                     
+                      <input type="text" id="fullName" name="full name" placeholder="Name">
+                      <input type="email" id="email" name="email" placeholder="Email">
+                      <input type="text" id="subject" name="subject" placeholder="subject">
+                     <textarea name="" id="" cols="20" rows="5" placeholder="Message"></textarea>
+                     <button class="btn-download btn">SEND MESSAGE</button>
+                    </div>
 
+
+                    <div class="col-lg-6 col-sm-12 cont-form">
+                       <div id="map"></div>
+                      </div>
+                </div>
+        </div>
+       
             
         </div>
     </section>
