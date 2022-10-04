@@ -148,7 +148,7 @@ h3 {
     height: 100%;
     background-color: #eeeeee;
     text-align: center;
-
+    width: 100%;
 }
 
 .services-card {
@@ -199,6 +199,7 @@ h3 {
     min-height: 100vh;
     height: 100%;
     text-align: center;
+    width: 100%;
 }
 
 .about-image {
@@ -506,6 +507,7 @@ h3 {
     min-height: 100vh;
     height: 100%;
     text-align: center;
+    width: 100%;
 }
 .contact-btn
 {

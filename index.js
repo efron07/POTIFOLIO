@@ -1,13 +1,21 @@
 
+///NAVIGATION PAGINATION TO DIFFRERENT SECTION///
 
-// loading mapop into our website
-var map = L.map('map').setView([51.505, -0.09], 13);
+document.querySelector('.navbar-nav').addEventListener('click',function(e){
+    e.preventDefault();
 
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-}).addTo(map);
+     if(e.target.classList.contains('nav-link'))
+     {
+        const id = e.target.getAttribute('href');
+        document.querySelector(id).scrollIntoView(
+            {
+                behavior:'smooth'
+            }
+        );
+     }
+})
+ 
+    ///VAVIGATION SCROLLING TO DIFFERENT PAGE SECTION///
 
-L.marker([51.5, -0.09]).addTo(map)
-    .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
-    .openPopup();
-    let 
+
+    
